@@ -10,6 +10,11 @@
       "StackName": "amplify-tstamplify-dev-134623",
       "StackId": "arn:aws:cloudformation:us-east-2:940838507809:stack/amplify-tstamplify-dev-134623/549aa780-8c4f-11ed-a916-0af79e557d4a",
       "AmplifyAppId": "d1qlnrqvh4ma09"
+    },
+    "categories": {
+      "api": {
+        "tstamplify": {}
+      }
     }
   }
 }
