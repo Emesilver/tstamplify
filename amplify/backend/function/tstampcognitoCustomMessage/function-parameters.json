@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "tstampcognito",
+  "functionName": "tstampcognitoCustomMessage",
+  "resourceName": "tstampcognitoCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "tstampcognitoCustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "www.humankind.co",
+  "EMAILSUBJECT": "Confirmation email",
+  "EMAILMESSAGE": "Confirmation link",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
